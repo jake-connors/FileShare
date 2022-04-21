@@ -1,0 +1,52 @@
+{
+    "name": "file_share",
+    "version": "1.0.19",
+    "description": "file sharing app",
+    "license": "ISC",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack --config webpack.dev.config.js",
+        "build": "webpack --config webpack.prod.config.js"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/eslint-parser": "^7.14.4",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.14.4",
+        "@babel/preset-react": "^7.13.13",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.6",
+        "eslint": "^7.27.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-react": "^7.24.0",
+        "less-loader": "^9.0.0",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    },
+    "dependencies": {
+        "@webb/excel_modal": "^1.0.2",
+        "@webb/go": "^1.0.0",
+        "@webb/modal": "^1.0.2",
+        "@webb/popper": "^2.0.24",
+        "@webb/popup-notify": "^1.0.2",
+        "@webb/route": "^1.0.1",
+        "@webb/table": "^1.0.19",
+        "axios": "^0.21.1",
+        "bluebird": "^3.7.2",
+        "file-saver": "^2.0.5",
+        "font-awesome": "^4.7.0",
+        "jszip": "^3.7.1",
+        "moment": "^2.29.1",
+        "numeral": "^2.0.6",
+        "react": "^17.0.2",
+        "react-csv": "^2.0.3",
+        "react-dom": "^17.0.2",
+        "react-dropzone": "^11.3.4",
+        "react-redux": "^7.2.4",
+        "react-router-dom": "^4.3.1",
+        "redux": "^4.1.0",
+        "redux-thunk": "^2.3.0"
+    }
+}
